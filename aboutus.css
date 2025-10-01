@@ -1,0 +1,177 @@
+*,
+::after,
+::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #452b1f;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 2rem;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+}
+
+h1,
+h2,
+h3,
+h4{
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 0.875rem;
+}
+
+p{
+    margin-bottom: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: 0.10rem;
+}
+
+
+@media screen and (min-width: 800px) {
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 1.75rem;
+    }
+    h4{
+        font-size: 1rem;
+    }
+    body{
+        font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4{
+        line-height: 1;
+    }
+}
+
+img{
+    display: block;
+}
+
+.about-top{
+    background: #c79454;
+    color: #0b0a0a;
+    display: grid;
+    place-items: center;
+    gap: 0.5rem 1rem;
+    grid-template-columns: 0.8fr 1fr;
+    padding: 2.5rem 0;
+
+}
+
+.top-title{
+    font-size: 2.5rem;
+}
+
+.top-left{
+    padding-left: 12rem;
+}
+
+.top-left p{
+    padding-right: 10rem;
+}
+
+.email-box{
+    display: flex;
+
+}
+
+.input-box{
+    padding: 1rem 12.5rem 1rem 0.5rem; 
+    background: #8f5d45;
+    border-color: #8f5d45;
+}
+
+.arrow-box{
+    background: #0b0a0a;
+    font-size: 2rem;
+    color: #fff;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+}
+
+.about-bottom{
+    display: grid;
+    place-items: start;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5rem;
+    column-gap: 0.1rem;
+}
+
+.vertical-line{
+    height: 450px;
+    width: 1px;
+    border-right: 1px solid;
+    margin-right: 0.2rem;
+    padding-right: 0.2rem;
+}
+
+.about-sect-1{
+    display: grid;
+    row-gap: 1px;
+    padding: 0.3rem;
+    margin: 0 auto;
+    background: #f30505;
+}
+
+.about-sect-1-top{
+    border: 2px solid #fff;
+    background: #c9a668;
+    color: #0b0a0a;
+    padding: 1rem 4rem 1rem 4rem;
+    
+}
+
+.about-sect-1-top h3{
+    font-size: 4rem;
+}
+
+.about-sect-1 p{
+    line-height: 3;
+}
+
+
+.about-sect-2 h3{
+    font-size: 0.9rem;
+}
+
+.about-tel{
+    color: #c9a668;
+}
+
